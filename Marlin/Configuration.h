@@ -822,7 +822,7 @@
  *
  * See https://github.com/synthetos/TinyG/wiki/Jerk-Controlled-Motion-Explained
  */
-// #define S_CURVE_ACCELERATION
+#define S_CURVE_ACCELERATION
 
 //===========================================================================
 //============================= Z Probe Options =============================
@@ -1102,7 +1102,6 @@
 // @section homing
 
 #define NO_MOTION_BEFORE_HOMING // Inhibit movement until all axes have been homed
-
 
 //#define UNKNOWN_Z_NO_RAISE      // Don't raise Z (lower the bed) if Z is "unknown." For beds that fall when Z is powered off.
 
